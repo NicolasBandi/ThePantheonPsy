@@ -1,0 +1,28 @@
+
+
+.rotate:hover{
+	transform: rotateX(360deg);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+.translate:hover{
+	transform: translate(10px,25px);
+	cursor: pointer;
+}
+
+@keyframes Opacidad{
+	from{opacity: 0}
+	to{opacity: 1;}
+
+	}
+
+body{
+	animation-name: Opacidad;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+}
+
+
+
+	
