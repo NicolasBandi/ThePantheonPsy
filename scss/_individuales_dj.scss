@@ -1,0 +1,53 @@
+.djFlex{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+#evolet{
+	h2{
+	 color: darkorange;
+	 padding-top: $textl;
+     font-family: $fontTitulos;
+	}
+	p{
+     color: white;
+	 font-weight: 400;
+	 line-height: 3rem;
+	 margin-left: 1rem;
+	 margin-right: 1rem;
+     font-family: $fontGeneral;
+    }
+}
+
+#neptuno{
+	h2{
+	 color: darkorange;
+	 padding-top: $textl;
+     font-family: $fontTitulos;
+	}
+	p{
+     color: white;
+	 font-weight: 400;
+	 line-height: 3rem;
+	 margin-left: 1rem;
+	 margin-right: 1rem;
+     font-family: $fontGeneral;
+    }
+}
+
+#johhny{
+	h2{
+	 color: darkorange;
+	 padding-top: $textl;
+     font-family: $fontTitulos;
+	}
+	p{
+     color: white;
+	 font-weight: 400;
+	 line-height: 3rem;
+	 margin-left: 1rem;
+	 margin-right: 1rem;
+     font-family: $fontGeneral;
+    }
+}

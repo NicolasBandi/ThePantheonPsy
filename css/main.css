@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap");
+body {
+  background: linear-gradient(grey, black); }
+
+.bg-orange {
+  --bs-bg-opacity: 0.5;
+  background-color: darkorange; }
+
+#botonera a {
+  font-weight: 300;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif; }
+
+#nosotros h1 {
+  color: #f0a207;
+  font-weight: 500;
+  padding-top: 3rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#nosotros p {
+  color: white;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Roboto", sans-serif; }
+
+#nosotros .flexNosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+@media (min-width: 1024px) {
+  #nosotros .flexNosotros {
+    flex-direction: row; } }
+
+#staff h1 {
+  color: darkorange;
+  font-weight: 500;
+  padding-top: 3rem;
+  font-family: "Berkshire Swash", cursive; }
+
+.paddingTopImg {
+  padding-top: 2rem;
+  cursor: pointer; }
+
+.gridImg {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "img" "img" "img" "img" "img";
+  align-items: center;
+  justify-items: center; }
+
+@media (min-width: 768px) {
+  .gridImg {
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: auto;
+    grid-template-areas: "img img" "img img" "img .";
+    justify-content: start; } }
+
+@media (min-width: 1024px) {
+  .gridImg {
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: auto;
+    grid-template-areas: "img img img" "img img ."; } }
+
+.releases h1 {
+  color: darkorange;
+  font-weight: 500;
+  padding-top: 2.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#contacto h2 {
+  color: darkorange;
+  font-weight: 500;
+  padding-top: 2.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#contacto .btn-boton {
+  color: blue; }
+
+.bg-footer {
+  --bs-bg-opacity: 1;
+  background-color: darkorange; }
+
+h3 {
+  color: #f0a207;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+.djFlex {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; }
+
+#evolet h2 {
+  color: darkorange;
+  padding-top: 2.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#evolet p {
+  color: white;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Roboto", sans-serif; }
+
+#neptuno h2 {
+  color: darkorange;
+  padding-top: 2.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#neptuno p {
+  color: white;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Roboto", sans-serif; }
+
+#johhny h2 {
+  color: darkorange;
+  padding-top: 2.5rem;
+  font-family: "Berkshire Swash", cursive; }
+
+#johhny p {
+  color: white;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Roboto", sans-serif; }

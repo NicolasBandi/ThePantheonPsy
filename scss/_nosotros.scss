@@ -1,0 +1,25 @@
+#nosotros{
+	h1{
+	color: rgb(240, 162, 7);
+	font-weight: 500;
+    padding-top: $textXl;
+    font-family: $fontTitulos;
+	}
+    p{
+    color: white;
+	font-weight: 400;
+	line-height: 3rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+    font-family: $fontGeneral;
+    }
+    .flexNosotros{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    } 
+    @media (min-width: 1024px){
+    .flexNosotros{
+     flex-direction:row ;}
+    }
+}
