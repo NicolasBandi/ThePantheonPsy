@@ -8,3 +8,19 @@ body{
 	background: linear-gradient(grey,black);
 }
 
+// Mixin 
+
+@mixin titulos ($color, $fontW){
+	color: $color;
+	font-weight: $fontW;
+}
+
+// map
+
+
+
+$shadow:(
+	'sh1':0px 2px 6px blue,
+    'sh2':2px 2px 12px red,
+    'sh3':2px 2px 12px darkorange,
+)

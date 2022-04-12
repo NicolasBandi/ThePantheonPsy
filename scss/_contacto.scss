@@ -1,11 +1,11 @@
 #contacto{
 	     h2{
-	     	color: darkorange;
-	        font-weight: 500;
-            padding-top: $textl;
-            font-family: $fontTitulos;
+	      @include titulos (darkorange, 500); 
+          padding-top: $textl;
+          font-family: $fontTitulos;
 	     }
 	     .btn-boton{
 	     	color: blue;
+	     	box-shadow: map-get($map:$shadow,$key:'sh2');
          }
 }

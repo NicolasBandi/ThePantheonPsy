@@ -6,8 +6,7 @@
     font-family: $fontTitulos;
 	}
     p{
-    color: white;
-	font-weight: 400;
+    @include titulos (white, 400);
 	line-height: 3rem;
 	margin-left: 1rem;
 	margin-right: 1rem;

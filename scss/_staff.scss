@@ -1,7 +1,6 @@
 #staff{
     h1{
-    color: darkorange;
-    font-weight: 500;
+    @include titulos (darkorange, 500); 
     padding-top: $textXl;
     font-family: $fontTitulos;
     }

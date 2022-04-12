@@ -11,13 +11,13 @@ body {
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif; }
 
-#nosotros h1 {
+#nosotros h1, #releases h1 {
   color: #f0a207;
   font-weight: 500;
   padding-top: 3rem;
   font-family: "Berkshire Swash", cursive; }
 
-#nosotros p {
+#nosotros p, #releases p {
   color: white;
   font-weight: 400;
   line-height: 3rem;
@@ -25,13 +25,13 @@ body {
   margin-right: 1rem;
   font-family: "Roboto", sans-serif; }
 
-#nosotros .flexNosotros {
+#nosotros .flexNosotros, #releases .flexNosotros {
   display: flex;
   flex-direction: column;
   justify-content: center; }
 
 @media (min-width: 1024px) {
-  #nosotros .flexNosotros {
+  #nosotros .flexNosotros, #releases .flexNosotros {
     flex-direction: row; } }
 
 #staff h1 {
@@ -65,11 +65,10 @@ body {
     grid-template-rows: auto;
     grid-template-areas: "img img img" "img img ."; } }
 
-.releases h1 {
-  color: darkorange;
-  font-weight: 500;
-  padding-top: 2.5rem;
-  font-family: "Berkshire Swash", cursive; }
+#spoty {
+  align-items: center;
+  margin-right: 10px;
+  box-shadow: 2px 2px 12px red; }
 
 #contacto h2 {
   color: darkorange;
@@ -78,7 +77,8 @@ body {
   font-family: "Berkshire Swash", cursive; }
 
 #contacto .btn-boton {
-  color: blue; }
+  color: blue;
+  box-shadow: 2px 2px 12px red; }
 
 .bg-footer {
   --bs-bg-opacity: 1;
@@ -95,38 +95,12 @@ h3 {
   flex-direction: column-reverse;
   align-items: center; }
 
-#evolet h2 {
+#evolet h2, #neptuno h2, #johhny h2 {
   color: darkorange;
   padding-top: 2.5rem;
   font-family: "Berkshire Swash", cursive; }
 
-#evolet p {
-  color: white;
-  font-weight: 400;
-  line-height: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-family: "Roboto", sans-serif; }
-
-#neptuno h2 {
-  color: darkorange;
-  padding-top: 2.5rem;
-  font-family: "Berkshire Swash", cursive; }
-
-#neptuno p {
-  color: white;
-  font-weight: 400;
-  line-height: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-family: "Roboto", sans-serif; }
-
-#johhny h2 {
-  color: darkorange;
-  padding-top: 2.5rem;
-  font-family: "Berkshire Swash", cursive; }
-
-#johhny p {
+#evolet p, #neptuno p, #johhny p {
   color: white;
   font-weight: 400;
   line-height: 3rem;
