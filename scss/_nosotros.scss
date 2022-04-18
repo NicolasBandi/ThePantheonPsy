@@ -5,20 +5,20 @@
     padding-top: $textXl;
     font-family: $fontTitulos;
 	}
-    p{
-    @include titulos (white, 400);
-	line-height: 3rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-    font-family: $fontGeneral;
-    }
-    .flexNosotros{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    } 
-    @media (min-width: 1024px){
-    .flexNosotros{
-     flex-direction:row ;}
-    }
+     p{
+     @include titulos (white, 400);
+	 line-height: 3rem;
+	 margin-left: 1rem;
+	 margin-right: 1rem;
+     font-family: $fontGeneral;
+     }
+     .flexNosotros{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+     } 
+      @media (min-width: 1600px){
+      .flexNosotros{
+      flex-direction:row ;}
+      }
 }
