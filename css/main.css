@@ -3,11 +3,10 @@ body {
   background: linear-gradient(grey, black); }
 
 .bg-orange {
-  --bs-bg-opacity: 0.5;
   background-color: darkorange; }
 
 #botonera a {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif; }
 
@@ -76,9 +75,30 @@ body {
   padding-top: 2.5rem;
   font-family: "Berkshire Swash", cursive; }
 
+#contacto a {
+  text-decoration: none; }
+
 #contacto .btn-boton {
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  border: none;
+  background: #343a40;
+  box-shadow: 0 5px #212529; }
+
+#contacto .btn-boton:hover {
+  box-shadow: 2px 2px 12px red;
+  op: 1px; }
+
+#contacto .btn-boton active {
+  box-shadow: 0px 2px 6px blue;
+  top: 5px;
   color: blue;
-  box-shadow: 2px 2px 12px red; }
+  box-shadow: 2px 2px 12px darkorange; }
 
 .bg-footer {
   --bs-bg-opacity: 1;
@@ -95,12 +115,12 @@ h3 {
   flex-direction: column-reverse;
   align-items: center; }
 
-#evolet h2, #neptuno h2, #goday h2, #tjoker h2, #johhny h2 {
+#evolet h2, #neptuno h2, #godai h2, #tjoker h2, #johhny h2 {
   color: darkorange;
   padding-top: 2.5rem;
   font-family: "Berkshire Swash", cursive; }
 
-#evolet p, #neptuno p, #goday p, #tjoker p, #johhny p {
+#evolet p, #neptuno p, #godai p, #tjoker p, #johhny p {
   color: white;
   font-weight: 400;
   line-height: 3rem;

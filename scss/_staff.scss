@@ -28,13 +28,13 @@
                          "img img"
                          "img img"
                          "img .";                   
-    justify-content: start;}
-    }
-    @media (min-width: 1024px){
-    .gridImg{
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: auto;
-    grid-template-areas:
+     justify-content: start;}
+     }
+      @media (min-width: 1024px){
+     .gridImg{
+      grid-template-columns: 33vw 33vw 33vw;
+      grid-template-rows: auto;
+      grid-template-areas:
                          "img img img"
                          "img img .";}
 }
